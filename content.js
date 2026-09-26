@@ -17,8 +17,8 @@
 */
 
 window.SITE = {
-  question: "What should a recruiting agent never be allowed to decide?",
-  emphasis: "never",
+  question: "How many times can you ask “Are you sure?” before no one is??",
+  emphasis: "no one",
 
   // Where "About" goes. Your LinkedIn for now; later, "about.html".
   aboutUrl: "https://www.linkedin.com/in/ethan-kessinger",
