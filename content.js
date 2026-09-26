@@ -17,7 +17,7 @@
 */
 
 window.SITE = {
-  question: "How many times can you ask “Are you sure?” before no one is??",
+  question: "How many times can you ask “Are you sure?” before no one is?",
   emphasis: "no one",
 
   // Where "About" goes. Your LinkedIn for now; later, "about.html".
