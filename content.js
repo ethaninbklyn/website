@@ -26,16 +26,21 @@ window.SITE = {
   // Seconds before the question switches to the next look.
   secondsPerLook: 15,
 
-  // ── Coming later ──────────────────────────────────────────
+  
   // Paragraphs shown under "Why it matters". Add them and the switch appears.
-  why: [],
-  closing: "I don’t have the answer yet. That’s why it’s still open.",
-  answerPrompt: "Tell me where you’d draw the line →",   // needs links.email
+    why:[
+    "Agents are good at busywork, not judgment. People are good at judgment, but they get overwhelmed, distracted, and bored. The best agents take the busywork so human judgment counts for more. That makes a human in the loop essential. Handled carelessly, it becomes a mirage.",
+    "Coding agents show how. They ask for permission constantly: to read a file, run a command, make an edit. Especially for people who aren’t developers, the sensible response is to click yes without reading.",
+    "There’s no universal setting. The right balance depends on the agent, on what it can touch, and maybe on the person using it. Finding it is hard.",
+    "My current approach is a risk framework. Actions that don’t matter much, or are easy to undo, skip the confirmation entirely. Everything else asks. The goal is that when the agent does ask, it’s worth stopping to read."
+  ],
+  closing: "Is that enough? Is there a better way to do it?",
+  answerPrompt: "Tell me how'd you do it →",   // needs links.email
 
   links: {
-    email: ""       // e.g. "you@example.com" — used by answerPrompt
+    email: "ethan.kessinger+site@gmail.com"       // e.g. "you@example.com" — used by answerPrompt
   },
-
+  // ── Coming later ──────────────────────────────────────────
   // Past questions, NEWEST FIRST. Add one and "Past questions" appears.
   // look: "typewriter" | "editorial" | "terminal" | "swiss"
   // { question: "...", emphasis: "", look: "typewriter", landed: "Where I ended up." }
